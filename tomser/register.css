@@ -1,0 +1,103 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    
+}
+.container{
+   width: 100%;
+   height: 100vh;
+   background-image: url(assets/images/banner-bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.loginsection{
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+}
+input[type=text], input[type=password]{
+    background-color: rgb(40, 123, 201);
+    border-radius: 10px;
+    font-size: 24px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    color:white;
+
+}
+input[type=text]::placeholder, input[type=password]::placeholder{
+    color: white;
+}
+input[type=submit]{
+    margin-top: 20px;
+    background-image:url(assets/images/banner-bg.jpg); ;
+    padding: 20px;
+    border-radius:15px ;
+    font-size: 26px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    letter-spacing: 2px;
+    color: white;
+}
+input[type=submit]:hover{
+    cursor: pointer;
+}
+
+h2{
+    margin-bottom: 40px;
+    font-size: 56px;
+    color: rgb(40, 123, 201);
+    font-weight: bold;
+}
+
+p{
+    color: grey;
+    font-size: 21px;
+
+}
+a{
+    text-decoration: none;
+    text-transform: none;
+    color:rgb(40, 123, 201); 
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.error-message {
+    background-color: #ffdddd;
+    color: #ff0000;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
